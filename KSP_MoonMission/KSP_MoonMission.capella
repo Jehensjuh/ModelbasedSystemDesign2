@@ -48,9 +48,64 @@
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
           id="95afb6b0-7005-4bfe-b6d9-cbb642ef85bf" name="Operational Capabilities">
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="510fd9ae-45a9-4234-8670-204b071e6775" name="Stable communication from the surface of the dark side of the mun"/>
+            id="510fd9ae-45a9-4234-8670-204b071e6775" name="Stable communication"
+            summary="stable communication is necessary for controle and data transfer">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="acb0a1b6-1fab-4264-84af-9d5f36a5eab0" involved="#18e848c6-2d4c-46f4-9b19-36d53bfef56b"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="78e47630-efe2-4128-9947-d82da30f28eb" involved="#ff58f5b4-25e4-4953-8c67-66bbe1d038e7"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="cedc1f78-c21f-4956-8e7a-65b2388dcb7c" involved="#a770f9f7-b2cb-483a-b574-1f927ef33cf6"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="de5642eb-29bb-452e-9713-ddac0bc30570" involved="#d09ff730-0998-4e16-b19b-8fd3626b3375"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="7b85a439-fa85-4d36-a4a7-b061416a4cf4" involved="#dc618b73-b2b4-4080-a321-bc5281ac7db3"/>
+        </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="560c96dd-7496-4b91-8bce-d96c709ab0b5" name="Datagathering on the surface of the dark side of the mun"/>
+            id="93308c54-68fb-4d8b-b966-291870428d55" name="Establishing mungarden"
+            summary="planting plants on the mun">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="141c21f3-c622-493f-a82e-919c1ebe6bd0" involved="#dc618b73-b2b4-4080-a321-bc5281ac7db3"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="d4ddac42-bced-441a-969f-db45baa06f06" involved="#ff58f5b4-25e4-4953-8c67-66bbe1d038e7"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="ca8904d1-4765-4610-8691-c733a3b00c64" involved="#d09ff730-0998-4e16-b19b-8fd3626b3375"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="34513eae-dda4-4d1f-8c5b-00184507696b" name="gathering of helium 3"
+            summary="gathering helium 3 from the mun's surface">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="54966ec8-1416-4781-8438-7e12eba4b348" involved="#dc618b73-b2b4-4080-a321-bc5281ac7db3"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="a43420cd-022c-4d99-94d7-6a066c8ece36" involved="#d09ff730-0998-4e16-b19b-8fd3626b3375"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="12755f37-5c6b-4e35-b42a-06dacdd2f271" involved="#ff58f5b4-25e4-4953-8c67-66bbe1d038e7"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="ab49a879-fc33-45cd-8ff6-f212dd39a768" name="Exploring" summary="Exploring the mun's terrain">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="a03ffad7-47e0-45bd-96d0-d8ccf8d22834" involved="#ff58f5b4-25e4-4953-8c67-66bbe1d038e7"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="70523a4c-a065-44d9-80dc-6ae36a536022" involved="#18e848c6-2d4c-46f4-9b19-36d53bfef56b"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="0017e729-7999-44dd-9468-c99f64883f49" involved="#dc618b73-b2b4-4080-a321-bc5281ac7db3"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="5e1f4896-2411-43cf-b11b-5e7d88b93968" name="Prestige gain">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="a807bd5a-94b4-4ac5-9df4-8c892e0b589d" involved="#77fc9c07-6ef9-42f2-9320-b3c2972c32c5"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="6caae8bd-dd4f-4df4-85dd-d07a4ec79718" involved="#6711a8e3-5c53-42ea-8a27-0d3e33b72b89"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="0b6a891e-98d3-4765-9568-c505b35029be" name="Travel" summary="Reaching the dark side of the mun">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="bda1ea5c-2abb-47bf-ade6-9704e3222230" involved="#a770f9f7-b2cb-483a-b574-1f927ef33cf6"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="bc980ff6-5315-4987-9552-27ac6f87c161" involved="#dc618b73-b2b4-4080-a321-bc5281ac7db3"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="b17e63c6-6c25-413c-bc64-2d232a997e1b" involved="#18e848c6-2d4c-46f4-9b19-36d53bfef56b"/>
+        </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="499d8f6a-6e88-41b3-a8a9-99e0e7e08ad5" name="Interfaces"/>
@@ -61,36 +116,36 @@
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="9937638a-a441-4d2c-b593-58fbe2cd17a0"
           name="Operational Entities">
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="cd65ce9d-9005-40f9-b985-503339d08d6b"
-            name="Probe control crew" abstractType="#77fc9c07-6ef9-42f2-9320-b3c2972c32c5"/>
+            name="Gouvernment" abstractType="#77fc9c07-6ef9-42f2-9320-b3c2972c32c5"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="22ace5e9-d71e-4bf4-9ed5-4f971112f0c0"
-            name="Rocket control crew" abstractType="#18e848c6-2d4c-46f4-9b19-36d53bfef56b"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="3579ae2f-1c74-48cf-b1c4-bb5a87f47842"
-            name="Spacecraft" abstractType="#d0f146a4-24f0-4d22-b380-df636ba6b777"/>
+            name="control crew" abstractType="#18e848c6-2d4c-46f4-9b19-36d53bfef56b"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="c1b22834-f571-40ee-89ef-5e4b41ca6e02"
             name="Enviroment" abstractType="#dc618b73-b2b4-4080-a321-bc5281ac7db3"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="1af69422-512c-4ae2-9065-7c416a6709d7"
+            name="Scientists" abstractType="#d09ff730-0998-4e16-b19b-8fd3626b3375"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d06f3962-af00-4d84-a406-4b55fa6fa50f"
+            name="Society" abstractType="#a86f3697-5ebb-44ec-8428-9b7410465538"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="01513cb1-d770-48af-8e44-31699e2a948e"
+            name="Space program" abstractType="#6711a8e3-5c53-42ea-8a27-0d3e33b72b89"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="f83c7bf5-e18f-4728-a375-bbe97e6995fa"
+            name="Rover probe" abstractType="#ff58f5b4-25e4-4953-8c67-66bbe1d038e7"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="bded8027-4b33-414b-be20-dd6a6a947596"
+            name="Carry Vehicle" abstractType="#a770f9f7-b2cb-483a-b574-1f927ef33cf6"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
+            id="2e6380a0-f3f1-40c9-b5a7-443df32a5f63" summary="Society can influence the gouvernment whether or not to fund the mission"
+            name="Influence" source="#a86f3697-5ebb-44ec-8428-9b7410465538" target="#77fc9c07-6ef9-42f2-9320-b3c2972c32c5"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
+            id="17dda3f2-0ffd-4c77-baba-7f5f0f14cdc5" summary="Provides money to the space program for the mission"
+            name="Funding" source="#77fc9c07-6ef9-42f2-9320-b3c2972c32c5" target="#6711a8e3-5c53-42ea-8a27-0d3e33b72b89"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
+            id="7ec06b8d-8ef1-4403-b966-c6cb9654e95b" summary="Space program manages the mission and thus has supervision over the control crew"
+            name="Supervision" source="#6711a8e3-5c53-42ea-8a27-0d3e33b72b89" target="#18e848c6-2d4c-46f4-9b19-36d53bfef56b"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="77fc9c07-6ef9-42f2-9320-b3c2972c32c5"
-            name="Probe control crew" summary="controls the probe once it's on the moon"
-            actor="true" human="true"/>
+            name="Gouvernment" summary="Provides funding" actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="18e848c6-2d4c-46f4-9b19-36d53bfef56b"
-            name="Rocket control crew" summary="controls the rocket on it's way to the moon"
-            actor="true" human="true"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="d0f146a4-24f0-4d22-b380-df636ba6b777"
-            name="Spacecraft">
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bded8027-4b33-414b-be20-dd6a6a947596"
-              name="Carry Vehicle" abstractType="#a770f9f7-b2cb-483a-b574-1f927ef33cf6"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="95c355d3-4b44-41cd-8f80-4ce4feeab0fa"
-              name="Sattelite" abstractType="#c0e2e228-1feb-48bf-9332-b73bd384d59d"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f83c7bf5-e18f-4728-a375-bbe97e6995fa"
-              name="Rover probe" abstractType="#ff58f5b4-25e4-4953-8c67-66bbe1d038e7"/>
-          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a770f9f7-b2cb-483a-b574-1f927ef33cf6"
-              name="Carry Vehicle"/>
-          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c0e2e228-1feb-48bf-9332-b73bd384d59d"
-              name="Sattelite"/>
-          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ff58f5b4-25e4-4953-8c67-66bbe1d038e7"
-              name="Rover probe"/>
-        </ownedEntities>
+            name="control crew" summary="controlls the spacecraft" actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="dc618b73-b2b4-4080-a321-bc5281ac7db3"
-            name="Enviroment">
+            name="Enviroment" summary="All outside influences on our mission">
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ea39102c-b357-4446-a441-2d45790c5295"
               name="Kerbin" abstractType="#ee54efaa-cd4e-41cd-99dc-5a63872c0ff7"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="5520f75a-fc75-46c4-b2b3-f0ddd816e49c"
@@ -98,22 +153,33 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="348227c5-8164-4a31-b141-5311fbdcf3ff"
               name="Gravity" abstractType="#c6421ea1-7bc7-4f27-ae01-fcf506aaee48"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ee54efaa-cd4e-41cd-99dc-5a63872c0ff7"
-              name="Kerbin">
+              name="Kerbin" summary="Launch site">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="62af2df3-ff6d-4cd9-97e6-e1706fe384b3"
                 name="Atmosphere" abstractType="#18dad80c-31bd-42a0-aa31-4c38532fe3a1"/>
             <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="18dad80c-31bd-42a0-aa31-4c38532fe3a1"
-                name="Atmosphere"/>
+                name="Atmosphere" summary="needs to be penetrated"/>
           </ownedEntities>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="544be46e-ee78-409b-9fa9-b80bedfe220f"
-              name="Mun">
+              name="Mun" summary="destination site">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="d0cafdb4-fa06-4994-883a-06b11e08684c"
                 name="Surface" abstractType="#76bf8f8f-2a4c-466f-946d-e33e0c012cc8"/>
             <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="76bf8f8f-2a4c-466f-946d-e33e0c012cc8"
-                name="Surface"/>
+                name="Surface" summary="landing site"/>
           </ownedEntities>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c6421ea1-7bc7-4f27-ae01-fcf506aaee48"
-              name="Gravity"/>
+              name="Gravity" summary="influences space vessel"/>
         </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="d09ff730-0998-4e16-b19b-8fd3626b3375"
+            name="Scientists" summary="Have an interest in performing various scientific experiments"
+            actor="true" human="true"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a86f3697-5ebb-44ec-8428-9b7410465538"
+            name="Society" summary="Influences the gouvernment" actor="true" human="true"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="6711a8e3-5c53-42ea-8a27-0d3e33b72b89"
+            name="Space program" summary="manages space missions" actor="true" human="true"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ff58f5b4-25e4-4953-8c67-66bbe1d038e7"
+            name="Rover probe"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a770f9f7-b2cb-483a-b574-1f927ef33cf6"
+            name="Carry Vehicle"/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
